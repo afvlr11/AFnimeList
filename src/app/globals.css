@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0F172A;
+  --color-secondary: #D4A373;
+  --color-accent: #F8FAFC;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    transition: .3s ease all;
+}
+
+img:hover {
+    scale: 102%;
+}
+
+.loading {
+  width:70px;
+  height:70px;
+  --c:radial-gradient(farthest-side,#0F172A 92%,#D4A373);
+  background: 
+    var(--c) 50% 0,
+    var(--c) 50% 100%,
+    var(--c) 100% 50%,
+    var(--c) 0    50%;
+  background-size:20px 20px;
+  background-repeat:no-repeat;
+  animation:s7 1s infinite;
+}
+@keyframes s7 {to{transform: rotate(.5turn)}}

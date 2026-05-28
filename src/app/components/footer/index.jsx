@@ -2,7 +2,7 @@ import { FaGithub, FaInstagram, FaYoutube } from "react-icons/fa"
 
 const Footer = () => {
     return (
-        <footer className="mt-10 bg-primary border-t border-white/10 px-6 py-6">
+        <footer className="mt-10 bg-[#020617] border-t border-white/10 px-6 py-6">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
                 <div className="flex flex-col text-sm text-gray-300 text-left">
                     <div className="flex items-center gap-2">
@@ -31,7 +31,7 @@ const Footer = () => {
                         <FaGithub />
                     </a>
                     <a
-                        href="https://instagram.com/"
+                        href="https://www.instagram.com/afvlr/"
                         target="_blank"
                         className="hover:text-secondary transition"
                     >

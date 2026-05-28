@@ -26,7 +26,9 @@ const InputSearch = () => {
             ref={searchRef}
             onKeyDown={handleSearch}
             />
-            <button onClick={handleSearch} className="absolute top-2 end-2 cursor-pointer">
+            <button 
+            onClick={handleSearch} 
+            className="absolute top-2 inset-e-2 cursor-pointer">
                 <MagnifyingGlassIcon size={22}/>
             </button>
         </div>
